@@ -1,3 +1,4 @@
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -5,15 +6,21 @@ body {
 	background-color: #f7f7f7;
 }
 
-.contenedor-principal {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 20px;
-}
+
+    
 
 header {
 	text-align: center;
 	margin-bottom: 30px;
+    max-width: 1000px;
+	margin: auto ;
+	padding: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://images.unsplash.com/photo-1592155491285-3ca39eaf72c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 h1 {
@@ -30,6 +37,7 @@ p {
 
 .info-pueblo {
 	margin-bottom: 40px;
+
 }
 
 .info-pueblo h2 {

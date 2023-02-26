@@ -163,7 +163,25 @@ p {
         margin-bottom: 20px;
     }
     
-    
+    footer {
+        background-color: #F8C471;
+        color: black;
+        padding: 15px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: -10px;
+        
+    }
+    footer img {
+        width: 100px;
+        height: auto;
+        margin: 10px;
+        
+    }
+
+
+
     @media only screen and (max-width: 768px) {
         h1 {
             font-size: 36px;

@@ -3,8 +3,21 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #f7f7f7;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)),url(Parque_Principal_del_Municipio_de_Soatá.jpg);
+    height: 100vh;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
-
+.cabecera-principal{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)),url(Parque_Principal_del_Municipio_de_Soatá.jpg);
+    height: 100vh;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 #contenedor-principal {
 	max-width: 960px;
 	margin: 0 auto;
@@ -18,14 +31,14 @@ header {
 
 h1 {
 	font-size: 48px;
-	margin: 0;
-	color: #333;
+	margin: 1;
+	color: rgb(255, 255, 255);
 }
 
 p {
 	font-size: 18px;
 	margin: 0;
-	color: #666;
+	color: rgb(245, 239, 239);
 }
 
 #info-pueblo {
@@ -34,14 +47,14 @@ p {
 
 #info-pueblo h2 {
 	font-size: 36px;
-	color: #333;
+	color: rgb(233, 227, 227);
 	margin-bottom: 20px;
 }
 
 #info-pueblo p {
 	font-size: 20px;
 	line-height: 1.5;
-	color: #666;
+	color: rgb(247, 240, 240);
 }
 
 #galeria {
@@ -65,14 +78,14 @@ p {
     
     #historia h2 {
         font-size: 36px;
-        color: #333;
+        color: rgb(248, 242, 242);
         margin-bottom: 20px;
     }
     
     #historia p {
         font-size: 20px;
         line-height: 1.5;
-        color: #666;
+        color: rgb(250, 246, 246);
         margin-bottom: 20px;
     }
     
@@ -87,18 +100,18 @@ p {
     
     #gastronomia h2 {
         font-size: 36px;
-        color: #333;
+        color: rgb(252, 250, 250);
         margin-bottom: 20px;
     }
     
     #gastronomia p {
         font-size: 20px;
         line-height: 1.5;
-        color: #666;
+        color: rgb(245, 241, 241);
         margin-bottom: 20px;
     }
     
-    #gastronomia img {
+    #gastronomia img { 
         max-width: 100%;
         margin-bottom: 20px;
     }
@@ -109,16 +122,22 @@ p {
     
     #turismo h2 {
         font-size: 36px;
-        color: #333;
+        color: rgb(241, 235, 235);
         margin-bottom: 20px;
     }
     
     #turismo p {
         font-size: 20px;
         line-height: 1.5;
-        color: #666;
+        color: rgb(252, 246, 246);
         margin-bottom: 20px;
+        
     }
+    #turismo p2 {
+        font-size: 20px;
+        line-height: 1.5;
+        color: rgb(252, 246, 246);
+        margin-bottom: 20px;}
     
     #turismo img {
         max-width: 100%;

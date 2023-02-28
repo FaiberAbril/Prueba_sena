@@ -122,16 +122,22 @@ p {
     
     #turismo h2 {
         font-size: 36px;
-        color: #333;
+        color: rgb(241, 235, 235);
         margin-bottom: 20px;
     }
     
     #turismo p {
         font-size: 20px;
         line-height: 1.5;
-        color: #666;
+        color: rgb(252, 246, 246);
         margin-bottom: 20px;
+        
     }
+    #turismo p2 {
+        font-size: 20px;
+        line-height: 1.5;
+        color: rgb(252, 246, 246);
+        margin-bottom: 20px;}
     
     #turismo img {
         max-width: 100%;

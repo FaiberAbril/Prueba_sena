@@ -5,7 +5,7 @@ body {
 	background-color: #f7f7f7;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)),url(Parque_Principal_del_Municipio_de_Soatá.jpg);
     height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -54,7 +54,7 @@ p {
 #info-pueblo p {
 	font-size: 20px;
 	line-height: 1.5;
-	color: #666;
+	color: rgb(247, 240, 240);
 }
 
 #galeria {
@@ -78,14 +78,14 @@ p {
     
     #historia h2 {
         font-size: 36px;
-        color: #333;
+        color: rgb(248, 242, 242);
         margin-bottom: 20px;
     }
     
     #historia p {
         font-size: 20px;
         line-height: 1.5;
-        color: #666;
+        color: rgb(250, 246, 246);
         margin-bottom: 20px;
     }
     

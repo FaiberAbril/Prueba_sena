@@ -2,7 +2,7 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #f7f7f7;
+	background-color: #6f0c7c;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)),url(Foto_de_la_iglesia_de_Boavita.jpg);;
 }
 
@@ -20,13 +20,13 @@ header {
 h1 {
 	font-size: 48px;
 	margin: 0;
-	color: #333;
+	color: #39afc4;
 }
 
 p {
 	font-size: 18px;
 	margin: 0;
-	color: #666;
+	color: #1b0e94;
 }
 
 #info-pueblo {
@@ -35,14 +35,14 @@ p {
 
 #info-pueblo h2 {
 	font-size: 36px;
-	color: #333;
+	color: #e928d9;
 	margin-bottom: 20px;
 }
 
 #info-pueblo p {
 	font-size: 20px;
 	line-height: 1.5;
-	color: #666;
+	color: #060814;
 }
 
 #galeria {
@@ -51,7 +51,7 @@ p {
 
 #galeria h2 {
 	font-size: 36px;
-	color: #333;
+	color: #a5136d;
 	margin-bottom: 20px;
 }
 
@@ -66,14 +66,14 @@ p {
     
     #historia h2 {
         font-size: 36px;
-        color: #333;
+        color: #d31deb;
         margin-bottom: 20px;
     }
     
     #historia p {
         font-size: 20px;
         line-height: 1.5;
-        color: #666;
+        color: #140202;
         margin-bottom: 20px;
     }
     
@@ -88,14 +88,14 @@ p {
     
     #gastronomia h2 {
         font-size: 36px;
-        color: #333;
+        color: #291694;
         margin-bottom: 20px;
     }
     
     #gastronomia p {
         font-size: 20px;
         line-height: 1.5;
-        color: #666;
+        color: #04020f;
         margin-bottom: 20px;
     }
     
@@ -110,14 +110,14 @@ p {
     
     #turismo h2 {
         font-size: 36px;
-        color: #333;
+        color: #dd373f;
         margin-bottom: 20px;
     }
     
     #turismo p {
         font-size: 20px;
         line-height: 1.5;
-        color: #666;
+        color: #3f7af0;
         margin-bottom: 20px;
     }
     

@@ -1,3 +1,4 @@
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -5,15 +6,21 @@ body {
 	background-color: #f7f7f7;
 }
 
-#contenedor-principal {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 20px;
-}
+
+    
 
 header {
 	text-align: center;
 	margin-bottom: 30px;
+    max-width: 1000px;
+	margin: auto ;
+	padding: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://images.unsplash.com/photo-1592155491285-3ca39eaf72c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=933&q=80);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 h1 {
@@ -25,102 +32,103 @@ h1 {
 p {
 	font-size: 18px;
 	margin: 0;
-	color: #666;
+	color: #727070;
 }
 
-#info-pueblo {
+.info-pueblo {
 	margin-bottom: 40px;
+
 }
 
-#info-pueblo h2 {
+.info-pueblo h2 {
 	font-size: 36px;
 	color: #333;
 	margin-bottom: 20px;
 }
 
-#info-pueblo p {
+.info-pueblo p {
 	font-size: 20px;
 	line-height: 1.5;
 	color: #666;
 }
 
-#galeria {
+.galeria {
 	margin-bottom: 40px;
 }
 
-#galeria h2 {
+.galeria h2 {
 	font-size: 36px;
 	color: #333;
 	margin-bottom: 20px;
 }
 
-#galeria img {
+.galeria img {
 	max-width: 100%;
 	margin-bottom: 20px;
 
 }
-    #historia {
+    .historia {
         margin-bottom: 40px;
     }
     
-    #historia h2 {
+    .historia h2 {
         font-size: 36px;
         color: #333;
         margin-bottom: 20px;
     }
     
-    #historia p {
+    .historia p {
         font-size: 20px;
         line-height: 1.5;
         color: #666;
         margin-bottom: 20px;
     }
     
-    #historia img {
+    .historia img {
         max-width: 100%;
         margin-bottom: 20px;
     }
     
-    #gastronomia {
+    .gastronomia {
         margin-bottom: 40px;
     }
     
-    #gastronomia h2 {
+    .gastronomia h2 {
         font-size: 36px;
         color: #333;
         margin-bottom: 20px;
     }
     
-    #gastronomia p {
+    .gastronomia p {
         font-size: 20px;
         line-height: 1.5;
         color: #666;
         margin-bottom: 20px;
     }
     
-    #gastronomia img {
+    .gastronomia img {
         max-width: 100%;
         margin-bottom: 20px;
     }
     
-    #turismo {
+    .turismo {
         margin-bottom: 40px;
     }
     
-    #turismo h2 {
+    .turismo h2 {
         font-size: 36px;
         color: #333;
         margin-bottom: 20px;
     }
     
-    #turismo p {
+    .turismo p {
         font-size: 20px;
         line-height: 1.5;
         color: #666;
         margin-bottom: 20px;
     }
     
-    #turismo img {
+    .turismo img {
         max-width: 100%;
         margin-bottom: 20px;
     }
@@ -137,11 +145,11 @@ p {
             font-size: 36px;
         }
     
-        #info-pueblo h2,
-        #galeria h2,
-        #historia h2,
-        #gastronomia h2,
-        #turismo h2 {
+        .info-pueblo h2,
+        .galeria h2,
+        .historia h2,
+        .gastronomia h2,
+        .turismo h2 {
             font-size: 24px;
         }
     
